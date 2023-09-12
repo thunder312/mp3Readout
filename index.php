@@ -29,7 +29,7 @@
             <div class="header__item">Title</div>
             <div class="header__item">Artist</div>
             <div class="header__item">Artwork</div>
-            <div class="header__item__long">Link</div>
+            <div class="header__item__long"></div>
 		</div>
 		<div class="table-content">	
         <?php foreach($myObjectMap as $key => $item): ?>
@@ -39,7 +39,7 @@
           <div class="table-data"><?PHP echo $item->artist; ?></div>
           <div class="table-data"><a href="<?PHP echo $item->artwork; ?>" target="#"><img class="imgPreview" src="<?PHP echo $item->artwork; ?>"/></a></div>
           <div class="table-data-long">
-          <audio controls preload="metadata" style=" width:300px;">
+          <audio controls preload="metadata" class="player">
 	        <source src="<?PHP echo $item->url; ?>" type="audio/mpeg">
 	            Your browser does not support the audio element.
           </audio><br />
