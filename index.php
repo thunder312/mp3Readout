@@ -4,16 +4,6 @@
   <link rel="stylesheet" href="default.scss">
 </head>
 <body>
-<script>
-      function play(musicId) {
-        var audio = document.getElementById(musicId);
-        audio.play();
-      }
-      function pause(musicId) {
-        var audio = document.getElementById(musicId);
-        audio.pause();
-      }
-</script>
 <?php
     //$myData = file_get_contents("https://github.com/ShivamJoker/sample-songs/blob/master/data.json");
     $myData = file_get_contents("./data/sampleMusic.json");
