@@ -44,7 +44,6 @@
 	            Your browser does not support the audio element.
           </audio><br />
           </div>
-          <!--div class="table-data"><a href="" target="#"><img class="imgListen" src="./img/headphones.png"/></a></div-->
         </div>
       <?php endforeach; ?>
 		</div>	
